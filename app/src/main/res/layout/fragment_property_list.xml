@@ -1,0 +1,51 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context="com.example.nero.estateagent.PropertySearchFragments.PropertyListFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/brown">
+
+        <ImageView
+            android:id="@+id/property_list_goBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/ic_keyboard_backspace_black_24dp"
+            android:tint="@color/white"
+            android:layout_marginLeft="15dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="13dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginBottom="13dp"
+            android:textColor="@color/white"
+            android:layout_gravity="center"
+            android:text="Property Result"/>
+    </LinearLayout>
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:id="@+id/property_list_textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:textColor="@color/black"
+        android:layout_gravity="center"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/property_list_listview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></android.support.v7.widget.RecyclerView>
+
+
+</LinearLayout>

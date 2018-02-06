@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@color/white">
+
+        <ImageView
+            android:id="@+id/property_thumbnail"
+            android:layout_width="150dp"
+            android:layout_height="140dp"
+            android:maxHeight="130dp"
+            android:maxWidth="140dp"
+            android:src="@drawable/testthumbnail"/>
+        <TextView
+            android:id="@+id/property_listivew_address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Address"
+            android:layout_toRightOf="@id/property_thumbnail"
+            android:layout_marginLeft="10dp"
+            android:textSize="10dp"
+            android:maxLines="1"
+            android:layout_marginTop="15dp"
+            android:ellipsize="end"/>
+
+        <TextView
+            android:id="@+id/property_listivew_title1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Property type:- "
+            android:layout_below="@id/property_listivew_address"
+            android:layout_toRightOf="@id/property_thumbnail"
+            android:layout_marginLeft="10dp"
+            android:textSize="12dp" />
+
+        <TextView
+            android:id="@+id/property_listivew_propertyType"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Detached"
+            android:layout_below="@id/property_listivew_address"
+            android:layout_toRightOf="@id/property_listivew_title1"
+            android:layout_marginLeft="1dp"
+            android:maxLines="1"
+            android:textSize="12dp" />
+
+        <TextView
+            android:id="@+id/property_listivew_poundsign"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="£"
+            android:layout_below="@id/property_listivew_propertyType"
+            android:layout_toRightOf="@id/property_thumbnail"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="4dp"
+            android:textSize="12dp" />
+
+        <TextView
+            android:id="@+id/property_listivew_propertyPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="120000"
+            android:layout_toRightOf="@id/property_listivew_poundsign"
+            android:layout_below="@id/property_listivew_title1"
+            android:layout_marginTop="4dp"
+            android:textSize="12dp"/>
+
+        <TextView
+            android:id="@+id/property_listview_description"
+            android:layout_below="@id/property_listivew_poundsign"
+            android:layout_toRightOf="@id/property_thumbnail"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:text="DescriptionDescriptionDescriptionDescriptionDescriptionDescriptionDescriptionDescriptionDescriptionDescriptionDescriptionDescription"
+            android:textSize="9dp"
+            android:maxLines="2"
+            android:gravity="start"
+            android:textAlignment="textStart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="end" />
+
+        <TextView
+        android:id="@+id/property_listivew_title2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bedroom:- "
+        android:layout_toRightOf="@id/property_thumbnail"
+        android:layout_below="@id/property_listview_description"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:textSize="10dp"/>
+
+        <TextView
+            android:id="@+id/property_listivew_bedroomNo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3"
+            android:layout_toRightOf="@id/property_listivew_title2"
+            android:layout_below="@id/property_listview_description"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:textSize="10dp"/>
+
+        <TextView
+            android:id="@+id/property_listivew_title3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Agent:- "
+            android:layout_toRightOf="@id/property_thumbnail"
+            android:layout_below="@id/property_listivew_title2"
+            android:layout_marginTop="2dp"
+            android:layout_marginLeft="10dp"
+            android:textSize="10dp"/>
+
+        <TextView
+            android:id="@+id/property_listivew_agentName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dixons"
+            android:layout_toRightOf="@id/property_listivew_title3"
+            android:layout_below="@id/property_listivew_bedroomNo"
+            android:layout_marginTop="2dp"
+            android:textSize="10dp"/>
+
+    </RelativeLayout>
+</LinearLayout>

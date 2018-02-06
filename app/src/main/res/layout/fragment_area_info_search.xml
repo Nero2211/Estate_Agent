@@ -1,0 +1,112 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context="com.example.nero.estateagent.AreaInfoSearchFragment.AreaInfoSearchFragment">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/brown">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="13dp"
+            android:layout_marginBottom="13dp"
+            android:layout_marginLeft="40dp"
+            android:textColor="@color/white"
+            android:text="Area Info Search"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:orientation="vertical"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp">
+
+    <!-- TODO: Update blank fragment layout -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/addresswithPostcodeTitle"
+            android:textSize="@dimen/addressTitle"
+            android:textColor="@color/black"/>
+
+        <EditText
+            android:id="@+id/property_area_search_edittext"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:shadowColor="@color/black"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:textSize="@dimen/addressEditText"
+            android:maxLines="1"
+            android:ellipsize="end"
+            android:hint="@string/postcode"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="40dp"
+        android:paddingLeft="125dp"
+        android:orientation="vertical">
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checkedButton="@+id/allgraph_rb"
+            android:orientation="vertical">
+            <RadioButton
+                android:id="@+id/education_rb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:theme="@style/CustomRadioButton"
+                android:text="@string/educationgraph"/>
+            <RadioButton
+                android:id="@+id/counciltax_rb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:layout_marginTop="@dimen/rbDistance"
+                android:theme="@style/CustomRadioButton"
+                android:text="@string/taxgraph"/>
+            <RadioButton
+                android:id="@+id/crime_rb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:layout_marginTop="@dimen/rbDistance"
+                android:theme="@style/CustomRadioButton"
+                android:text="@string/crimegraph"/>
+            <RadioButton
+                android:id="@+id/people_rb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:layout_marginTop="@dimen/rbDistance"
+                android:theme="@style/CustomRadioButton"
+                android:text="@string/peoplegraph"/>
+            <RadioButton
+                android:id="@+id/allgraph_rb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:layout_marginTop="@dimen/rbDistance"
+                android:theme="@style/CustomRadioButton"
+                android:text="@string/allgraph"/>
+
+        </RadioGroup>
+
+
+    </LinearLayout>
+</LinearLayout>

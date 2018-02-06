@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:layout_marginTop="20dp"
+    android:layout_marginBottom="20dp"
+    android:background="@color/grey">
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/listviewTitle1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="For more information, please visit the link below:- "
+        android:textColor="@color/green"/>
+
+    <TextView
+        android:id="@+id/areaURL"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/listviewTitle1"
+        android:layout_marginTop="3dp"
+        android:layout_marginBottom="7dp"
+        android:textColor="@color/black"
+        android:text="HTTP:aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+        android:maxLines="1"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/sevenYears"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/listviewTitle7Years"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="italic"
+            android:text="@string/sevenYears"/>
+        <TextView
+            android:id="@+id/sevenYearsPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:text="West Midlands"
+            />
+
+        <TextView
+        android:id="@+id/sevenYearsQuantity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@id/sevenYearsPrice"
+        android:layout_marginRight="15dp"
+        android:textColor="@color/black"
+            android:textStyle="bold"
+        android:text="0"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/fiveYears"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/listviewTitle5Years"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="italic"
+            android:text="@string/fiveYears"/>
+
+        <TextView
+            android:id="@+id/fiveYearsPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:text="West Midlands"/>
+
+        <TextView
+        android:id="@+id/fiveYearsQuantity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@id/fiveYearsPrice"
+        android:layout_marginRight="15dp"
+            android:textStyle="bold"
+        android:textColor="@color/black"
+        android:text="0"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/threeYears"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/listviewTitle3Years"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="italic"
+            android:text="@string/threeYears"/>
+
+        <TextView
+            android:id="@+id/threeYearsPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:text="West Midlands"/>
+
+        <TextView
+            android:id="@+id/threeYearsQuantity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@id/threeYearsPrice"
+            android:layout_marginRight="15dp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:text="0"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/oneYear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/listviewTitle1Year"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="italic"
+            android:text="@string/oneYear"/>
+
+        <TextView
+            android:id="@+id/oneYearPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:text="West Midlands"/>
+
+        <TextView
+            android:id="@+id/oneYearQuantity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@id/oneYearPrice"
+            android:layout_marginRight="15dp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:text="0"/>
+    </RelativeLayout>
+
+</LinearLayout>

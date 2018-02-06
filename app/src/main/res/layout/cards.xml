@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/property_image"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/testthumbnail" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/transparent_gradient"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="bottom|left"
+            android:padding="20dp">
+
+            <TextView
+                android:id="@+id/property_price"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#97FB88"
+                android:text="$1,250,000"
+                android:textSize="18sp"/>
+
+            <TextView
+                android:id="@+id/property_address"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1242 9th Ave W"
+                android:textColor="@android:color/white" />
+
+            <TextView
+                android:id="@+id/property_bedrooms"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="5 Beds 4 Baths"
+                android:textColor="@android:color/white" />
+
+        </LinearLayout>
+
+    </FrameLayout>
+
+</FrameLayout>

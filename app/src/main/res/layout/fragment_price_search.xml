@@ -1,0 +1,106 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context="com.example.nero.estateagent.PriceSearchFragment.PriceSearchFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/brown">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="13dp"
+            android:layout_marginBottom="13dp"
+            android:layout_marginLeft="40dp"
+            android:textColor="@color/white"
+            android:text="Price Search"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:orientation="vertical"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp">
+
+        <!-- TODO: Update blank fragment layout -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/addresswithPostcodeTitle"
+            android:textSize="@dimen/addressTitle"
+            android:textColor="@color/black"/>
+
+        <EditText
+            android:id="@+id/property_price_search_edittext"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:shadowColor="@color/black"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:textSize="@dimen/addressEditText"
+            android:maxLines="1"
+            android:ellipsize="end"
+            android:hint="@string/postcode"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="40dp"
+        android:paddingLeft="125dp"
+        android:orientation="vertical">
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checkedButton="@+id/allP_rb"
+            android:orientation="vertical">
+            <RadioButton
+                android:id="@+id/sevenYearP_rb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:theme="@style/CustomRadioButton"
+                android:text="@string/sevenYearP"/>
+            <RadioButton
+                android:id="@+id/fiveYearP_rb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:theme="@style/CustomRadioButton"
+                android:layout_marginTop="@dimen/rbDistance"
+                android:text="@string/fiveYearP"/>
+            <RadioButton
+                android:id="@+id/threeYearP_rb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:theme="@style/CustomRadioButton"
+                android:layout_marginTop="@dimen/rbDistance"
+                android:text="@string/threeYearP"/>
+            <RadioButton
+                android:id="@+id/oneYearP_rb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:theme="@style/CustomRadioButton"
+                android:layout_marginTop="@dimen/rbDistance"
+                android:text="@string/oneYearP"/>
+            <RadioButton
+                android:id="@+id/allP_rb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:theme="@style/CustomRadioButton"
+                android:layout_marginTop="@dimen/rbDistance"
+                android:text="@string/allYearP"/>
+        </RadioGroup>
+    </LinearLayout>
+</LinearLayout>

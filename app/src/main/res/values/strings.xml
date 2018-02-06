@@ -1,0 +1,69 @@
+<resources>
+    <string name="app_name">ONE IN A MILLION</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="title_activity_maps">Map</string>
+    <string name="sevenYears">Numbers of sales and price 7 years:</string>
+    <string name="fiveYears">Numbers of sales and price 5 years:</string>
+    <string name="threeYears">Numbers of sales and price 3 years:</string>
+    <string name="oneYear">Numbers of sales and price 1 year:</string>
+    <string name="educationgraph">Education Graph</string>
+    <string name="crimegraph">Crime Graph</string>
+    <string name="taxgraph">Council Tax Graph</string>
+    <string name="peoplegraph">People Graph</string>
+    <string name="allgraph">All Graphs</string>
+    <string name="sevenYearP">7 Years History</string>
+    <string name="fiveYearP">5 Years History</string>
+    <string name="threeYearP">3 Years History</string>
+    <string name="oneYearP">1 Year History</string>
+    <string name="allYearP">All</string>
+    <string name="addresswithPostcodeTitle">Address (Only Postcode)</string>
+    <string name="addressTitle">Address</string>
+    <string name="priceTitle">Price</string>
+    <string name="bedroomTitle">Bedrooms</string>
+    <string name="propertyTypeTitle">Property Type</string>
+    <string name="postcode">Postcode</string>
+    <string name="unknown">Unknown</string>
+
+    <string-array name="minimumBedrooms">
+        <item>No Min</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+    </string-array>
+    <string-array name="maximumBedrooms">
+        <item>No Max</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+    </string-array>
+    <string-array name="minimumPrice">
+        <item>No Min</item>
+        <item>100000</item>
+        <item>300000</item>
+        <item>600000</item>
+        <item>800000</item>
+        <item>1000000</item>
+    </string-array>
+    <string-array name="maximumPrice">
+        <item>No Max</item>
+        <item>1500000</item>
+        <item>2000000</item>
+        <item>5000000</item>
+        <item>8000000</item>
+    </string-array>
+    <string-array name="propertyType">
+        <item>All</item>
+        <item>Detached house</item>
+        <item>Town house</item>
+        <item>Semi-detached house</item>
+        <item>Flat</item>
+    </string-array>
+
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">AIzaSyB6v_b1LxmTppY-mn49qGm2vW6e3G6UY14</string>
+</resources>
